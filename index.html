@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+  </head>
+  <body>
+          <div class="container">
+
+            <div class="kepalacontainer" id="kepala"> <!-- row -->
+
+              <div class="strip">
+                <div class="strip3">
+                  <input type="image" src="./images/menu.png" id="tombolhide" class="menuhide">
+                </div>
+              </div>
+              
+              <div class="badancontainer">  <!-- col -->
+                <div class="dalemkiri">
+                  <img src="./images/niki.jpg" alt="">
+                </div>
+
+                <div class="sidebar">
+                  <h4>Niki Zefanya</h4>
+                  <ul class="list-unstyled">
+                    <li>
+                      <a href="#" class="explore">Explore</a>
+                    </li>
+                    <li>
+                      <a href="#" class="history">History</a>
+                    </li>
+                    <li>
+                      <!-- <a href="#" class="addbook">Add Book*</a>
+                    </li> -->
+                    <li>
+                      <div id="button"><a href="#popup">Add Book*</a></div>
+    
+                        <div id="popup">
+                          <div class="window">
+                              <a href="#" class="close-button" title="Close"><img src="/Task 1/close.png" class="silang" alt="close"></a>
+
+                                <div class="tambahdata"> Add Data</div>
+                                  <p class="baris1">
+                                      <label class="masukinimage">Url Image</label>
+                                      <input type="text" name="urlimage" placeholder="Url Image..." />
+                                  </p>
+                                  <p class="baris2">
+                                    <label class="judul">Title</label>
+                                    <input type="text" name="title" placeholder="Title..." />
+                                  </p>
+                                  <p class="baris3">
+                                      <label class="deskripsi">Description</label>
+                                      <input type="text" name="description" placeholder="Description..." />
+                                  </p>
+                                  <p class="baris4">
+                                      <input type="submit" name="submit" value="Save" />
+                                  </p>
+                            
+                            </div>
+                        </div>
+                    </li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="container">
+              <div class="navbaratas">
+                <div class="tulisan1">
+                  <input type="image" src="./images/menu.png" id="tombolmenu" class="menutombol">
+                  <select class="kategori">
+                    <option value="volvo">All Categories</option>
+                    <option value="saab">Novel</option>
+                  </select>
+
+                  <select class="item">
+                    <option value="volvo">All Time</option>
+                    <option value="saab">History</option>
+                  </select>
+
+                  <input class="kolomcari" type="text" placeholder="Search Book">
+                  <input type="image" src="./images/find.png" class="menufind">
+                  <a href="http://127.0.0.1:5500/Task%201/newlandingpage.html"><img src="./images/bookshelf.png" alt="bookshelf"></a>
+                  <a href="http://127.0.0.1:5500/Task%201/newlandingpage.html"><h1>Library</h1></a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Carousel -->
+            <div class="daftarcarousel">
+              <div class="carousel">
+                <div class="carousel1">
+                  <!--<img src="./images/coverdilan.png" class="dilan" alt="dilan1990"> -->
+                  <h3>Dilan 1990</h3>
+                  <h6>Pidi Baiq</h6>
+                </div>
+          
+                <div class="carousel2">
+                  <!--<img src="./images/coverlembur.png" class="uburubur" alt="uburuburlembur"> -->
+                  <h3>Ubur-ubur Lembur</h3>
+                  <h6>Raditya Dika</h6>
+                </div>
+          
+                <div class="carousel3">
+                  <!--<img src="./images/laskar.png" class="laskar" alt="laskarpelangi"> -->
+                  <h3 class="laskarpelangi">Laskar Pelangi</h3>
+                  <h6 class="andrea">Andrea Hirata</h6>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card -->
+            <div class="daftarkartunovel">
+              <div class="daftarnovel">
+                <div class="isinovel">
+                  <h4>List Book</h4>
+                </div>
+              </div>
+              <div class="kartu">
+                <div class="kartu0">
+                  <img src="./images/covernyanative.png" class="covernyanative2" alt="React Native">
+                  <h3 class="reactkartu2">React Native</h3>
+                  <p class="paragrafreact2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed convallis lacus mi, sit amet vehicula nisl consequat id.</p>
+                </div>
+
+                <div class="kartu1">
+                  <a href="http://127.0.0.1:5500/Task%201/detail.html#"><img src="./images/covernyadilan.png" class="covernyadilan" alt="Dilan 1990"></a>
+                  <h3> Dilan 1990 </h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed convallis lacus mi, sit amet vehicula nisl consequat id.</p>
+                </div>
+
+                <div class="kartu2">
+                  <img src="./images/covernyabodoh.png" class="covernyabodoh" alt="Sebuah Seni Untuk ...">
+                  <h3>Sebuah Seni Untuk ...</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed convallis lacus mi, sit amet vehicula nisl consequat id.</p>
+                </div>
+
+                <div class="kartu3">
+                  <img src="./images/covernyanative.png" class="covernyanative" alt="React Native">
+                  <h3 class="reactkartu">React Native</h3>
+                  <p class="paragrafreact">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed convallis lacus mi, sit amet vehicula nisl consequat id.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+    <script>
+      $(document).ready(function(){
+
+        $('#tombolhide').click(function(){
+          $('#kepala').hide();
+        })
+
+        $('#tombolmenu').click(function(){
+          $('#kepala').show();
+        })
+      });
+    </script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

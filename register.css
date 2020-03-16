@@ -1,0 +1,403 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+}
+
+.latar {
+    position: absolute;
+    width: 60%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../Task\ 1/fotobuku.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.formulir {
+    background-color: white;
+    height: 100vh;
+    width: 40%;
+}
+
+h1 {
+    color: white;
+    position: absolute;
+    width: 808px;
+    height: 318px;
+    left: 56px;
+    top: 10px;
+
+    font-family: airbnb;
+    font-size: 50px;
+    line-height: 83px;
+}
+
+h2 {
+    position: absolute;
+    width: 354px;
+    height: 138px;
+    left: 900px;
+    top: 90px;
+
+    font-family: airbnb;
+    font-size: 50px;
+    line-height: 83px;
+
+    color: #424242;
+}
+
+h3 {
+    position: absolute;
+    width: 388px;
+    height: 110px;
+    left: 900px;
+    top: 190px;
+    font-family: airbnb;
+    font-size: 17px;
+    line-height: 22px;
+
+    color: #424242;
+}
+
+h4 {
+    position: absolute;
+    width: 378px;
+    height: 30px;
+    left: 29px;
+    top: 605px;
+
+    font-family: opensans;
+    font-size: 12px;
+    line-height: 25px;
+
+color: #FFFFFF;
+}
+
+@font-face {
+    font-family: "airbnb";
+    src: url(./fonts/AirbnbCerealBold.ttf);
+}
+
+.img-thumbnail {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 1270px;
+    top: 12px;
+}
+
+p {
+    position: absolute;
+    width: 327px;
+    height: 63px;
+    left: 900px;
+    top: 580px;
+    
+    font-family: airbnb;
+    font-size: 12px;
+    line-height: 22px;
+    
+    color: black;
+}
+
+.dan {
+    color: #D0CCCC;
+}
+
+.form {
+    position: absolute;
+    width: 354px;
+    height: 137px;
+    left: 900px;
+    top: 260px;
+}
+
+.email {
+    width: 417px;
+    height: 55px;
+    padding-top: 5px;
+    padding-left: 10px;
+    border: 1px solid;
+    box-shadow: 0px 20px 20px rgba(0,0,0,0.1);
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.user {
+    width: 417px;
+    height: 55px;
+    padding-top: 5px;
+    padding-left: 10px;
+    border: 1px solid;
+    box-shadow: 0px 20px 20px rgba(0,0,0,0.1);
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.name {
+    width: 417px;
+    height: 55px;
+    padding-top: 5px;
+    padding-left: 10px;
+    border: 1px solid;
+    box-shadow: 0px 20px 20px rgba(0,0,0,0.1);
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.label-email {
+    position: absolute;
+    color: #D0CCCC;
+    left: 10px;
+    top: 135px;
+    font-family: airbnb;
+    font-size: 12px;
+}
+
+.sandi {
+    width: 417px;
+    height: 55px;
+    padding-top: 5px;
+    padding-left: 10px;
+    border: 1px solid;
+    box-shadow: 0px 20px 20px rgba(0,0,0,0.1);
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.label-sandi {
+    position: absolute;
+    color:#D0CCCC;
+    left: 10px;
+    margin-top: 25px;
+    font-family: airbnb;
+    font-size: 12px;
+    top: 165px;
+}
+
+.label-fullname {
+    position: absolute;
+    color:#D0CCCC;
+    left: 10px;
+    margin-top: 25px;
+    font-family: airbnb;
+    font-size: 12px;
+    top: 55px;
+}
+
+.label-name {
+    position: absolute;
+    color:#D0CCCC;
+    left: 10px;
+    margin-top: 25px;
+    font-family: airbnb;
+    font-size: 12px;
+    top: 0px;
+}
+
+.btn-primary {
+    position: absolute;
+    width: 110px;
+    height: 30px;
+    left: 901px;
+    top: 530px;
+    color: white;
+    font-family: airbnb;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 10px 0px 0px 0px;
+    text-align: center;
+    border: 1px solid #E0E0E0;
+    
+
+    background: #000000;
+    border-radius: 5px; 
+}
+
+.btn-secondary {
+    position: absolute;
+    width: 110px;
+    height: 30px;
+    left: 1020px;
+    top: 530px;
+    color: gainsboro;
+    font-family: airbnb;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 10px 0px 0px 0px;
+    text-align: center;
+    border-radius: 2px;
+    border: 1px solid #E0E0E0;
+
+    background: white;
+    border-radius: 5px; 
+}
+
+@media screen and (max-width: 640px) {
+    .container .latar {
+        position: absolute;
+        width: 411px;
+        height: 45vh;
+    }
+
+    .latar {
+        position: absolute;
+        width: 50px;
+        height: 100vh;
+    }
+    
+    .formulir {
+        background-color: white;
+        height: 100vh;
+        width: 40%;
+    }
+
+    h1 {
+        color: white;
+        position: absolute;
+        width: 300px;
+        height: 318px;
+        left: 60px;
+        top: 70px;
+    
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    h2 {
+        position: absolute;
+        width: 340px;
+        height: 138px;
+        left: 60px;
+        top: 330px;
+    
+        font-family: airbnb;
+        font-size: 30px;
+        line-height: 50px;
+    
+    }
+
+    h3 {
+        position: absolute;
+        width: 300px;
+        height: 110px;
+        left: 60px;
+        top: 379px;
+        font-family: airbnb;
+        font-size: 17px;
+        line-height: 22px;
+    
+        color: #424242;
+    }
+
+    .img-thumbnail {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        left: 60px;
+        top: 330px;
+    }
+
+    .form {
+        position: absolute;
+        left: 56px;
+        top: 450px;
+        width: 340px;
+    }
+
+    .email {
+        width: 290px;
+        height: 55px;
+    }
+    
+    .sandi {
+        width: 290px;
+        height: 55px;
+    }
+    
+    .label-sandi {
+        position: absolute;
+        color:#D0CCCC;
+        left: 10px;
+        margin-top: 25px;
+        font-family: airbnb;
+        font-size: 12px;
+        top: 55px;
+    }
+    
+    .cekbox {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        left: 898px;
+        top: 395px;
+    
+        background: transparent;
+        box-sizing: border-box;
+        border-radius: 2px;
+    }
+
+    .cekbox {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        left: 55px;
+        top: 600px;
+    }
+    
+    h5 {
+        position: absolute;
+        font-size: 12px;
+        left: 80px;
+        top: 579px;
+    }
+
+    .btn-primary {
+        position: absolute;
+        width: 110px;
+        height: 30px;
+        left: 57px;
+        top: 700px;
+        color: white;
+        font-family: airbnb;
+        font-size: 12px;
+    }
+    
+    .btn-secondary {
+        position: absolute;
+        width: 110px;
+        height: 30px;
+        left: 178px;
+        top: 700px;
+    }
+    
+    .text-decoration-none {
+        position: absolute;
+        width: 163px;
+        height: 35px;
+        left: 60px;
+        top: 630px;
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    p {
+        position: absolute;
+        width: 300px;
+        height: 63px;
+        left: 60px;
+        top: 800px;
+        font-size: 8px;
+        line-height: 18px;
+    }
+
+
+}

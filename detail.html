@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail</title>
+    <link rel="stylesheet" href="detail.css">
+</head>
+<body>
+    <div class="container">
+        <div class="latar">
+
+          <div>
+            <div id="button" class="edit"><a href="#popup">Edit</a></div>
+              <div id="popup">
+                <div class="window">
+                  <a href="#" class="close-button" title="Close"><img src="/Task 1/close.png" class="silang" alt="close"></a>
+
+                  <div class="tambahdata"> Add Data</div>
+                    <p class="baris1">
+                        <label class="masukinimage">Url Image</label>
+                        <input type="text" name="urlimage" placeholder="Url Image..." />
+                    </p>
+                    <p class="baris2">
+                      <label class="judul">Title</label>
+                      <input type="text" name="title" placeholder="Title..." />
+                    </p>
+                    <p class="baris3">
+                        <label class="deskripsi">Description</label>
+                        <input type="text" name="description" placeholder="Description..." />
+                    </p>
+                    <p class="baris4">
+                        <input type="submit" name="submit" value="Save" />
+                    </p>
+                </div>
+              </div>
+          </div>
+
+          <a href="#modal" class="modal-open">Delete</a>
+ 
+          <div class="modal" id="modal">
+             <div class="modal__content">
+               <a href="#" class="modal__close">&times;</a>
+               <!--<a href="#" class="silang-button" title="close"> <img src="close.png" alt="close"></a> -->
+               <img src="checked.png" class="check" alt="checked">
+               <p class="modal__paragraph">Data <span class="dilanbold">Dilan 1990</span> berhasil dihapus</p>
+             </div>
+          </div>
+
+          <div class="tandapanah">
+            <a href="http://127.0.0.1:5500/Task%201/sidebar-01/sidebar-01/index.html"><img src="../Task 1/Ellipsepanah.png" alt="Ellips"> </a>
+          </div>
+          
+        </div>
+    </div>
+
+    <div class="container">
+
+      <div class="bawah">
+        <div class="baris1">
+
+          <div class="kolom0">
+            <h2>Novel</h2>
+          </div>
+
+          <div class="kolom1">
+            <h1>Dilan 1990</h1>
+          </div>
+
+          <div class="kolom2">
+            <h2>30 Juni 2019</h2>
+          </div>
+
+          <div class="kolom3">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac diam eget est rutrum <br>
+              ultrices. Donec laoreet enim a massa dapibus, cursus egestas dui pulvinar. Proin sit amet <br>
+              accumsan lectus. Nullam auctor auctor consequat. Donec semper magna erat, sed <br>
+              fringilla lacus pretium eget. Cras porttitor, nibh sit amet interdum bibendum, nibh velit <br>
+              accumsan tellus, vel vehicula tellus leo vitae ipsum. Praesent sit amet libero sed orci <br>
+              ullamcorper efficitur. Pellentesque in euismod purus, sit amet ultrices tortor. Vestibulum <br>
+              ante dui, tempor at dui id, tincidunt euismod diam. Integer pellentesque massa nibh, ac <br>
+              eleifend odio malesuada sed. Phasellus orci sem, cursus nec orci ut, accumsan facilisis <br>
+              lacus. Nullam at elementum nibh, ac gravida felis. In sagittis rhoncus nisi tempus dignissim. <br> 
+              Sed fringilla consequat ante vitae lobortis. Cras posuere ligula vel enim suscipit <br>
+              malesuada. Vivamus non nulla ut ante imperdiet euismod quis nec massa.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="sebelah">
+        <div class="kolom4">
+          <h1>Available</h1>
+        </div>
+
+        <div class="kolom5">
+          <a href="#" class="btn-primary" role="button" aria-pressed="true">Borrow</a>
+        </div>
+
+        <div class="kolom6">
+          <img src="./dilan_1990.jpg" alt="dilan1990">
+        </div>
+      </div>
+    </div>
+</body>
+</html>
+
